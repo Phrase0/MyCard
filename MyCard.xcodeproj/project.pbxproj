@@ -11,6 +11,8 @@
 		F8FDB4612A0D3F1B0032DDFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDB4602A0D3F1B0032DDFF /* ContentView.swift */; };
 		F8FDB4632A0D3F1C0032DDFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FDB4622A0D3F1C0032DDFF /* Assets.xcassets */; };
 		F8FDB4662A0D3F1C0032DDFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FDB4652A0D3F1C0032DDFF /* Preview Assets.xcassets */; };
+		F8FDB46E2A10E8A00032DDFF /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8FDB46D2A10E8A00032DDFF /* Pacifico-Regular.ttf */; };
+		F8FDB4742A127C230032DDFF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDB4732A127C230032DDFF /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		F8FDB4602A0D3F1B0032DDFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8FDB4622A0D3F1C0032DDFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8FDB4652A0D3F1C0032DDFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8FDB46D2A10E8A00032DDFF /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		F8FDB46F2A10EA9B0032DDFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F8FDB4732A127C230032DDFF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		F8FDB45D2A0D3F1B0032DDFF /* MyCard */ = {
 			isa = PBXGroup;
 			children = (
+				F8FDB46F2A10EA9B0032DDFF /* Info.plist */,
+				F8FDB46C2A10E8480032DDFF /* fonts */,
 				F8FDB45E2A0D3F1B0032DDFF /* MyCardApp.swift */,
 				F8FDB4602A0D3F1B0032DDFF /* ContentView.swift */,
+				F8FDB4732A127C230032DDFF /* SwiftUIView.swift */,
 				F8FDB4622A0D3F1C0032DDFF /* Assets.xcassets */,
 				F8FDB4642A0D3F1C0032DDFF /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				F8FDB4652A0D3F1C0032DDFF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8FDB46C2A10E8480032DDFF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDB46D2A10E8A00032DDFF /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FDB46E2A10E8A00032DDFF /* Pacifico-Regular.ttf in Resources */,
 				F8FDB4662A0D3F1C0032DDFF /* Preview Assets.xcassets in Resources */,
 				F8FDB4632A0D3F1C0032DDFF /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +156,7 @@
 			files = (
 				F8FDB4612A0D3F1B0032DDFF /* ContentView.swift in Sources */,
 				F8FDB45F2A0D3F1B0032DDFF /* MyCardApp.swift in Sources */,
+				F8FDB4742A127C230032DDFF /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = VLTRC7L6R5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = VLTRC7L6R5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
